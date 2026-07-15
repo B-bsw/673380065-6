@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  * HelloController — REST Controller ตัวอย่างสำหรับ Lab03
  *
  * TODO: แก้ไขข้อมูลส่วนตัวด้านล่างให้เป็นของคุณ
- *   - NAME    : ชื่อ-สกุล ของนักศึกษา
- *   - ID      : รหัสนักศึกษา
- *   - SECTION : หมายเลขกลุ่ม (Section)
+ *   - NAME    : สรวิชญ์ ทัศดร
+ *   - ID      : 673380065-6
+ *   - SECTION : 2
  */
 
 // ── Annotations ──────────────────────────────────────────────────────────────
@@ -28,9 +28,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     // ── ข้อมูลนักศึกษา ── แก้ไขตรงนี้ ──────────────────────────────────────
-    private static final String NAME    = "Your Name Here";     // TODO: ใส่ชื่อจริง
-    private static final String ID      = "xxxx";               // TODO: ใส่รหัสนักศึกษา
-    private static final String SECTION = "x";                  // TODO: ใส่เลข Section
+    private static final String NAME = "สรวิชญ์ ทัศดร"; // TODO: ใส่ชื่อจริง
+    private static final String ID = "673380065-6"; // TODO: ใส่รหัสนักศึกษา
+    private static final String SECTION = "2"; // TODO: ใส่เลข Section
+
     // ─────────────────────────────────────────────────────────────────────────
 
     /**
@@ -45,7 +46,9 @@ public class HelloController {
     public String hello() {
         return String.format(
             "Hello! My name is %s, Student ID: %s, sec: %s",
-            NAME, ID, SECTION
+            NAME,
+            ID,
+            SECTION
         );
     }
 
@@ -60,7 +63,9 @@ public class HelloController {
     public String info() {
         return String.format(
             "Project: Lab03 Spring Boot | Name: %s | ID: %s | Section: %s",
-            NAME, ID, SECTION
+            NAME,
+            ID,
+            SECTION
         );
     }
 
