@@ -6,8 +6,8 @@
 
 1. กดปุ่ม **Fork** มุมบนขวาของหน้า GitHub นี้
 2. เลือก account ของคุณ → กด **Create fork**
-3. **เปลี่ยนชื่อ repo** ให้เป็น `67XXXXXXXX-X`  
-   โดย `67XXXXXXXX` = รหัสนักศึกษา 10 หลัก, `X` = Section  
+3. **เปลี่ยนชื่อ repo** ให้เป็น `67XXXXXXXX-X`
+   โดย `67XXXXXXXX` = รหัสนักศึกษา 10 หลัก, `X` = Section
    ตัวอย่าง: `6701234567-1`
 4. Clone repo ที่ fork มาลงเครื่อง:
 
@@ -28,7 +28,7 @@ cd 67XXXXXXXX-X
 | Apache Maven | 3.9.x ขึ้นไป | `mvn -v` |
 | Git | ใดก็ได้ | `git --version` |
 
-> ⚠️ **ถ้ายังไม่มี JDK** → ดาวน์โหลดได้ที่ https://adoptium.net  
+> ⚠️ **ถ้ายังไม่มี JDK** → ดาวน์โหลดได้ที่ https://adoptium.net
 > ⚠️ **ถ้ายังไม่มี Maven** → ดาวน์โหลดได้ที่ https://maven.apache.org/download.cgi
 
 ---
@@ -41,7 +41,7 @@ cd 67XXXXXXXX-X
 
 ## 🟣 Eclipse — ติดตั้ง Spring Tools และสร้าง Spring Boot Project
 
-> **Spring Tools 4 (ST4)** คือ plugin ล่าสุดสำหรับ Eclipse  
+> **Spring Tools 4 (ST4)** คือ plugin ล่าสุดสำหรับ Eclipse
 > เวอร์ชันปัจจุบัน: **4.32.x** (Spring Tools 3 หยุดพัฒนาแล้ว อย่าลงผิด)
 
 ### ขั้นตอนที่ 1 — ติดตั้ง Spring Tools 4 ผ่าน Eclipse Marketplace
@@ -53,9 +53,9 @@ cd 67XXXXXXXX-X
 5. ยอมรับ License → กด **Finish**
 6. รอติดตั้ง → Eclipse จะขอ Restart → กด **Restart Now**
 
-> ⚠️ ถ้าหา Marketplace ไม่เจอ ให้ไปที่  
-> **Help → Install New Software** → วาง URL นี้:  
-> `https://cdn.spring.io/spring-tools/release/update/latest/`  
+> ⚠️ ถ้าหา Marketplace ไม่เจอ ให้ไปที่
+> **Help → Install New Software** → วาง URL นี้:
+> `https://cdn.spring.io/spring-tools/release/update/latest/`
 > แล้วกด Add → ติ๊กเลือก features → กด Next จนเสร็จ
 
 ---
@@ -330,8 +330,8 @@ git push origin main
 
 ## 📁 สิ่งที่ต้องส่ง
 
-- [ ] Fork repo นี้ และตั้งชื่อ repo เป็น `67XXXXXXXX-X`
-- [ ] Push โค้ดพร้อมข้อมูลของตัวเองขึ้น GitHub
-- [ ] แสดง commit history อย่างน้อย 2 commits
-- [ ] Screenshot Browser ที่เรียก `/api/hello` และ `/api/info`
-- [ ] ส่งไฟล์ PDF ชื่อ `Lab03_xxxxSec#.pdf`
+- [x] Fork repo นี้ และตั้งชื่อ repo เป็น `67XXXXXXXX-X`
+- [x] Push โค้ดพร้อมข้อมูลของตัวเองขึ้น GitHub
+- [x] แสดง commit history อย่างน้อย 2 commits
+- [x] Screenshot Browser ที่เรียก `/api/hello` และ `/api/info`
+- [x] ส่งไฟล์ PDF ชื่อ `Lab03_xxxxSec#.pdf`
